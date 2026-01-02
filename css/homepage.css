@@ -1,0 +1,128 @@
+/* Homepage Styles - Hero and Bento Grid */
+
+.hero-message {
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    background: rgba(177, 156, 217, 0.05);
+    border-radius: 12px;
+    border: 2px solid rgba(177, 156, 217, 0.2);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--lavender);
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(177, 156, 217, 0.3);
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    justify-self: start;
+}
+
+.hero-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    color: var(--lavender);
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-message p {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.2rem;
+    color: var(--accent);
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1.4;
+}
+
+/* Bento Box Grid */
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.bento-card {
+    background: rgba(177, 156, 217, 0.08);
+    border: 2px solid rgba(177, 156, 217, 0.2);
+    border-radius: 12px;
+    padding: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.bento-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--lavender), var(--accent));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.bento-card:hover {
+    background: rgba(177, 156, 217, 0.15);
+    border-color: var(--lavender);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(177, 156, 217, 0.2);
+}
+
+.bento-card:hover::before {
+    transform: scaleX(1);
+}
+
+.bento-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.bento-card p {
+    margin-bottom: 0.5rem;
+}
+
+.bento-link {
+    font-family: 'Space Mono', monospace;
+    color: var(--lavender);
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: color 0.3s ease;
+}
+
+.bento-card:hover .bento-link {
+    color: var(--accent);
+}
+
+.bento-large {
+    grid-column: span 2;
+}
+
+.bento-wide {
+    grid-column: span 2;
+}
+
+.bento-tall {
+    grid-row: span 2;
+}

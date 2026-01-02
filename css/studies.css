@@ -1,0 +1,111 @@
+/* Studies Page Styles */
+
+.studies-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 3rem;
+    align-items: start;
+}
+
+.studies-main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.studies-sidebar {
+    border-left: 2px solid var(--lavender-dark);
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sidebar-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar-section h3 {
+    font-size: 1.1rem;
+    color: var(--lavender-light);
+    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-family: 'Space Mono', monospace;
+}
+
+.sidebar-section h3:first-of-type {
+    margin-top: 0;
+}
+
+.study-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(139, 123, 184, 0.1);
+    border-radius: 4px;
+    border: 1px solid rgba(177, 156, 217, 0.2);
+}
+
+.study-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.study-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: rgba(177, 156, 217, 0.05);
+    padding: 0.5rem;
+    border: 1px solid rgba(177, 156, 217, 0.3);
+}
+
+.study-info {
+    flex: 1;
+}
+
+.study-info h3 {
+    margin-top: 0;
+}
+
+.study-center {
+    font-family: 'Space Mono', monospace;
+    color: var(--lavender-light);
+    font-size: 0.95rem;
+    margin: 0.25rem 0;
+}
+
+.study-item h3 {
+    color: var(--accent);
+}
+
+.skill-item {
+    background: rgba(177, 156, 217, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--lavender-dark);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.award-item, .cert-item {
+    border-left: 3px solid var(--lavender);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.award-item h4, .cert-item h4 {
+    color: var(--lavender-light);
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.award-category, .cert-issuer {
+    color: var(--lavender-dark);
+    font-size: 0.85rem;
+    font-style: italic;
+}

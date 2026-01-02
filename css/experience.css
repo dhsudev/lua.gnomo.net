@@ -1,0 +1,73 @@
+/* Experience Page Styles */
+
+.experience-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(139, 123, 184, 0.1);
+    border-radius: 4px;
+    border: 1px solid rgba(177, 156, 217, 0.2);
+}
+
+.experience-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.experience-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: rgba(177, 156, 217, 0.05);
+    padding: 0.5rem;
+    border: 1px solid rgba(177, 156, 217, 0.3);
+}
+
+.experience-info {
+    flex: 1;
+}
+
+.experience-info h3 {
+    margin-top: 0;
+}
+
+.experience-item h3 {
+    color: var(--accent);
+}
+
+.company {
+    font-family: 'Space Mono', monospace;
+    color: var(--lavender-light);
+    font-size: 0.95rem;
+    margin: 0.25rem 0;
+}
+
+.date {
+    font-family: 'Space Mono', monospace;
+    color: var(--lavender-dark);
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.tech-tags span {
+    background: rgba(177, 156, 217, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid var(--lavender-dark);
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+.tech-tags span:hover {
+    background: rgba(177, 156, 217, 0.2);
+    border-color: var(--lavender);
+}

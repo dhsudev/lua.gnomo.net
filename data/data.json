@@ -1,0 +1,139 @@
+{
+  "profile": {
+    "name": "Lua Trevín Hernaiz",
+    "linkedin": "https://www.linkedin.com/in/luatrhe/",
+    "github": "https://github.com/dhsudev",
+    "email": "lua@gnomo.net",
+    "role": "Junior Backend Developer",
+    "tagline": "Dream in logic, build with heart",
+    "location": "Greater Barcelona Metropolitan Area",
+    "summary": "Software development it's just one of my skills! I also enjoy designing and building anything I can think of!"
+  },
+  "studies": [
+    {
+      "id": 1,
+      "title": "Computer Engineering",
+      "center": "Universitat Oberta de Catalunya",
+      "logo": "images/studies/uoc.png",
+      "period": "Current",
+      "description": "Currently pursuing Computer Engineering degree, building strong foundations in computer science, algorithms, and software systems."
+    },
+    {
+      "id": 2,
+      "title": "CFGS Cross-Platform Application Development",
+      "center": "Institut Tecnològic de Barcelona",
+      "logo": "images/studies/itb.png",
+      "period": "September 2023 - June 2025",
+      "description": "Higher vocational degree in multiplatform application development, focusing on computer programming and software development."
+    },
+    {
+      "id": 3,
+      "title": "Computer Programming",
+      "center": "42 The Network",
+      "logo": "images/studies/42.png",
+      "period": "January 2024 - January 2025",
+      "description": "Peer-to-peer learning program focused on practical coding skills and problem-solving."
+    },
+    {
+      "id": 4,
+      "title": "CFGM Microcomputer Systems and Networks",
+      "center": "Institut Tecnològic de Barcelona",
+      "logo": "images/studies/itb.png",
+      "period": "September 2021 - May 2023",
+      "description": "Vocational degree in computer systems networking and telecommunications, covering microinformatics and network infrastructure."
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Junior Backend Developer",
+      "company": "Biyiud, Sustainability as Wealth",
+      "logo": "images/work/biyiud.png",
+      "period": "June 2025 - October 2025",
+      "description": "Developing software solutions for sustainability-focused applications. Contributing to innovative projects in the environmental technology sector. Focused on the backend development, built microservices and deployed on Google Cloud Platform.",
+      "technologies": ["Backend Development", "Full Stack", "Sustainability Tech", "JavaScript", "Node.js", "Google Cloud Platform"],
+      "location": "Barcelona, Catalonia, Spain"
+    },
+    {
+      "id": 2,
+      "title": "Junior Software Developer",
+      "company": "Biyiud, Sustainability as Wealth",
+      "logo": "images/work/biyiud.png",
+      "period": "January 2025 - June 2025",
+      "description": "Worked on CERT, an accreditation system for Spanish Vocational Qualifications adapted to EBSI (European Blockchain Services Infrastructure).",
+      "technologies": ["Backend Development", "EBSI", "Blockchain", "Accreditation Systems"],
+      "location": "Barcelona, Catalonia, Spain"
+    },
+    {
+      "id": 3,
+      "title": "Microinformatics Technician",
+      "company": "Uckert Technology Service GmbH",
+      "logo": "images/work/uckert.jpg",
+      "period": "January 2023 - April 2023",
+      "description": "Provided technical support and maintenance for microcomputer systems and IT infrastructure.",
+      "technologies": ["IT Support", "Hardware", "System Maintenance"],
+      "location": "Berlin, Germany"
+    },
+    {
+      "id": 4,
+      "title": "Microinformatics Technician",
+      "company": "Institut Vilatzara",
+      "logo": "images/work/vilatzara.jpg",
+      "period": "November 2022 - January 2023",
+      "description": "Technical support role managing and maintaining computer systems and networks.",
+      "technologies": ["IT Support", "Network Administration", "Hardware"],
+      "location": "Vilassar de Mar, Cataluña, España"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "e-Series Pro Track",
+      "issuer": "Universal Robots"
+    },
+    {
+      "id": 2,
+      "title": "e-Series Application Track",
+      "issuer": "Universal Robots"
+    },
+    {
+      "id": 3,
+      "title": "e-Series Core Track",
+      "issuer": "Universal Robots"
+    },
+    {
+      "id": 4,
+      "title": "Cypher Fundamentals",
+      "issuer": "Neo4j"
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "🥇 Gold Medal in CatSkills 2025",
+      "category": "Collaborative Robotics"
+    },
+    {
+      "id": 2,
+      "title": "🏆 Dona TIC 2025",
+      "category": "VET Student"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Catalan",
+      "flag": "🏴󠁥󠁳󠁣󠁴󠁿",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "flag": "🇪🇸",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "flag": "🇬🇧",
+      "proficiency": "Professional Working"
+    }
+  ]
+}

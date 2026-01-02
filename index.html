@@ -1,1 +1,67 @@
-home page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lua's space</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/components.js"></script>
+</head>
+<body>
+    <portfolio-header></portfolio-header>
+
+    <div class="container">
+        <div class="hero-message">
+            <img src="images/profile.png" alt="profile-picture" class="hero-photo">
+            <div class="hero-text">
+                <h2 class="hero-name">Lua Trevin Hernaiz</h2>
+                <h1 class="hero-greeting">👋 Hi! I'm  a Junior Software Developer based in Barcelona</h1>
+                <p style="font-style: italic;">"dream in logic, build with heart"</p>
+            </div>
+        </div>
+        
+        <div class="bento-grid">
+            <div class="bento-card bento-large" onclick="location.href='pages/about.html'">
+                <h2>About Me</h2>
+                <p>Passionate developer combining logical thinking with creative problem-solving to build meaningful solutions.</p>
+                <span class="bento-link">Learn more →</span>
+            </div>
+
+            <div class="bento-card bento-medium" onclick="location.href='pages/experience.html'">
+                <h2>Experience</h2>
+                <p class="date">3+ years</p>
+                <p>Full Stack Development, Frontend Engineering, Freelance Projects</p>
+                <span class="bento-link">View details →</span>
+            </div>
+
+            <div class="bento-card bento-medium" onclick="location.href='pages/studies.html'">
+                <h2>Studies</h2>
+                <p class="date">CS Degree + Ongoing</p>
+                <p>Computer Science, Certifications, Self-Directed Learning</p>
+                <span class="bento-link">View details →</span>
+            </div>
+
+            <div class="bento-card bento-tall" onclick="location.href='pages/contact.html'">
+                <h2>Get in Touch</h2>
+                <p>Interested in working together? Let's connect and create something amazing.</p>
+                <span class="bento-link">Contact me →</span>
+            </div>
+
+            <div class="bento-card bento-wide">
+                <h2>Tech Stack</h2>
+                <div class="tech-tags">
+                    <span>JavaScript</span>
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>PostgreSQL</span>
+                    <span>HTML/CSS</span>
+                    <span>Git</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <portfolio-footer></portfolio-footer>
+</body>
+</html>

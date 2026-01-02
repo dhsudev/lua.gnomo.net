@@ -1,0 +1,72 @@
+/* Base Styles - Reset, Variables, and Typography */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #0a0a0a;
+    --lavender: #b19cd9;
+    --lavender-light: #d4c4f7;
+    --lavender-dark: #8b7bb8;
+    --accent: #e6d9ff;
+    --white: #ffffff;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin: 4rem 0;
+    padding: 2rem;
+    background: rgba(177, 156, 217, 0.05);
+    border-left: 4px solid var(--lavender);
+    border-radius: 4px;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    color: var(--accent);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+h3 {
+    color: var(--lavender-light);
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+    color: var(--white);
+    font-size: 1rem;
+}
+
+::selection {
+    background: var(--lavender);
+    color: var(--black);
+}
+
+strong {
+    color: var(--lavender);
+    font-family: 'Space Mono', monospace;
+}

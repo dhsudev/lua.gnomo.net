@@ -1,0 +1,108 @@
+/* Header Styles */
+
+header {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a1a3a 100%);
+    padding: 1.5rem 2rem;
+    border-bottom: 3px solid var(--lavender);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(177, 156, 217, 0.1);
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left-link {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.3s ease;
+}
+
+.header-left-link:hover {
+    opacity: 0.8;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid var(--lavender);
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.header-name {
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: var(--lavender);
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header-tagline {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--accent);
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.header-nav a {
+    font-family: 'Space Mono', monospace;
+    color: var(--lavender);
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 2px;
+}
+
+.header-nav a:hover {
+    color: var(--accent);
+    border-bottom: 2px solid var(--lavender);
+}
+
+nav {
+    margin-top: 1.5rem;
+}
+
+nav a {
+    font-family: 'Space Mono', monospace;
+    color: var(--lavender);
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: var(--accent);
+    border-bottom: 2px solid var(--lavender);
+}

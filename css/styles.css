@@ -1,0 +1,12 @@
+/* Main Styles - Imports all modular CSS files */
+
+@import 'base.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'homepage.css';
+@import 'studies.css';
+@import 'experience.css';
+@import 'contact.css';
+@import 'about.css';
+@import 'responsive.css';
+

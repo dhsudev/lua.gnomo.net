@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studies - Lua's Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/components.js"></script>
+    <script src="../js/data-loader.js"></script>
+</head>
+<body>
+    <portfolio-header subpage></portfolio-header>
+
+    <div class="container">
+        <div class="studies-layout">
+            <main class="studies-main">
+                <section>
+                    <h2>Education</h2>
+                    <div id="studies-container">
+                        <!-- Content will be loaded from data.json -->
+                    </div>
+                </section>
+            </main>
+            
+            <aside class="studies-sidebar">
+                <section class="sidebar-section">
+                    <h3>Skills</h3>
+                    <div id="skills-container">
+                        <!-- Skills will be loaded from data.json -->
+                    </div>
+                    
+                    <h3>Awards</h3>
+                    <div id="awards-container">
+                        <!-- Awards will be loaded from data.json -->
+                    </div>
+                    
+                    <h3>Certifications</h3>
+                    <div id="certifications-container">
+                        <!-- Certifications will be loaded from data.json -->
+                    </div>
+                </section>
+            </aside>
+        </div>
+    </div>
+
+    <portfolio-footer></portfolio-footer>
+</body>
+</html>

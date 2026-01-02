@@ -1,0 +1,62 @@
+/* Contact Page Styles */
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: var(--lavender-light);
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+input, textarea {
+    background: rgba(177, 156, 217, 0.1);
+    border: 2px solid var(--lavender-dark);
+    color: var(--white);
+    padding: 0.8rem;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    background: rgba(177, 156, 217, 0.15);
+}
+
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+button {
+    font-family: 'Space Mono', monospace;
+    background: var(--lavender);
+    color: var(--black);
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(177, 156, 217, 0.3);
+}
